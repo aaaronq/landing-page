@@ -31,6 +31,10 @@ body {
     color: #E5E7EB;
 }
 
+.header a:hover {
+    color: #3882F6;
+}
+
 .hero {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -50,7 +54,8 @@ body {
     width: 800px;
     height: 350px;
     background-color: grey;
-    margin-top: 50px;
+    margin-top: 70px;
+    text-align: center; 
 }
 
 .hero p {
@@ -106,16 +111,104 @@ body {
 .information-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 500px;
+    margin-bottom: 150px;
 }
 
 .info{
-    max-width: 200px;
+    max-width: 150px;
+    text-align:left;
 }
 
-.info img{
+.info img {
+    display: block;
     width: 150px;
     height: 150px;
     border-radius: 10px;
     border: 5px solid #3882F6;
+    align-self: center;
+}
+
+.info .text{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction {
+    margin-top: 100px;
+    background-color: #3882F6;
+    width: 1200px;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 100px;
+}
+
+.calltoaction button{
+    background-color:#3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.calltoaction .text h2{
+    margin-bottom: 0px;
+}
+
+.calltoaction .text p{
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.footer p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    height: 105px;
 }
